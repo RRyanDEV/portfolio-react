@@ -1,4 +1,3 @@
-import ButtonsContent from "@/components/buttonsContent";
 import ProfileContent from "@/components/profileContent";
 import React from "react";
 import ParticleBackground from "react-particle-backgrounds";
@@ -30,9 +29,9 @@ export default function Home() {
   return (
     <>
       <div className="bg-gray-900 h-screen w-screen">
-        {/* <div className="absolute top-0 h-screen w-screen">
+        <div className="absolute top-0 h-screen w-screen">
           <ParticleBackground settings={settings} />
-        </div> */}
+        </div>
 
         <ProfileContent></ProfileContent>
       </div>

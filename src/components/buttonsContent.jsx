@@ -1,7 +1,7 @@
 export default function ButtonsContent() {
   return (
     <>
-      <div id="buttons" className="">
+      <div id="buttons" className="z-10">
         <div
           id="gridBtn"
           class="grid grid-cols-2 gap-8 max-sm:grid-cols-1 max-sm:mt-3 max-sm:mb-10"

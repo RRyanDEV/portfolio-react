@@ -14,7 +14,8 @@ export default function Profile({
     <>
       <div
         id="containerUser"
-        className="flex bg-gray-900 flex-col items-center">
+        className="flex bg-gray-900 flex-col items-center"
+      >
         <Image
           className="w-40 h-40 absolute top-16 rounded-full border-4"
           src={imgSrc}
@@ -33,7 +34,7 @@ export default function Profile({
             <p className="w-3/4">{bio}</p>
           </div>
         </div>
-        <ButtonsContent></ButtonsContent>
+        <ButtonsContent/>
       </div>
     </>
   );
