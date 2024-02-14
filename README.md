@@ -13,7 +13,7 @@
 </a>
 
 <br>
-<img src="https://img.shields.io/badge/version-0.0.1-240211?" height="22" alt="Version"/>
+<img src="https://img.shields.io/badge/version-0.0.2-240213?" height="22" alt="Version"/>
 
 <br>
 
@@ -26,6 +26,12 @@
 ## Notas de versão
 
 </a>
+
+### v0.0.2.240213
+
+- Criado o componente dos Botões.
+- Adicionado o pdf do meu currículo.
+- Ajuste no nome dos componentes.
 
 ### v0.0.1.240211
 
