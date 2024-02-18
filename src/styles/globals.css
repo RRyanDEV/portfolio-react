@@ -26,5 +26,5 @@
 }
 
 body{
-  @apply scrollbar-thumb-green-500 scrollbar-track-gray-900/90 scrollbar-thin
+  @apply scrollbar-thumb-green-500 scrollbar-track-gray-900/90 scrollbar-thin bg-gray-900
 }

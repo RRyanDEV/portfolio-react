@@ -72,7 +72,7 @@ export default function StacksContent({ titleStack, EndTitleStack, ...props }) {
 
         <div
           id="Stack"
-          className="shadow-[rgba(6,_24,_44,_0.4)_0px_0px_0px_2px,_rgba(6,_24,_44,_0.65)_0px_4px_6px_-1px,_rgba(255,_255,_255,_0.08)_0px_1px_0px_inset] grid grid-cols-12 grid-rows-1 gap-6 max-sm:grid-cols-4 max-sm:mt-3 max-sm:mb-10 mb-5 text-white-500 text-3xl"
+          className="shadow-[inset_0px_0px_3.0px_0px_#1A202C] grid grid-cols-12 grid-rows-1 gap-6 max-sm:grid-cols-4 max-sm:mt-3 max-sm:mb-10 mb-5 text-white-500 text-3xl"
         >
           {techStack.map(({ stack, url }, i) => (
             <StackCard key={i} src={url} stack={stack} />
