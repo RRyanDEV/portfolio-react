@@ -1,4 +1,5 @@
 import ProfileContent from "@/components/profileContent";
+import StacksContent from "@/components/stackContent";
 import React from "react";
 import ParticleBackground from "react-particle-backgrounds";
 
@@ -28,12 +29,13 @@ export default function Home() {
 
   return (
     <>
-      <div className="bg-gray-900 h-screen w-screen">
-        <div className="absolute top-0 h-screen w-screen">
+      <div className="bg-gray-900 h-auto">
+        <ProfileContent></ProfileContent>
+        <StacksContent></StacksContent>
+
+        <div className="fixed top-0 h-screen w-full">
           <ParticleBackground settings={settings} />
         </div>
-
-        <ProfileContent></ProfileContent>
       </div>
     </>
   );

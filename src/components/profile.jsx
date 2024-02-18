@@ -23,7 +23,7 @@ export default function Profile({
         />
         <div id="texts" className="flex items-center mb-6 pt-20 flex-col">
           <div id="title" className="flex text-3xl m-6">
-            <h1 className="text-white">{cardTitle}</h1>
+            <h1 className="font-customFont text-white">{cardTitle}</h1>
           </div>
           <div
             id="subtitles"

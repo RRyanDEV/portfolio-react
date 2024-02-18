@@ -7,10 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        
-      }
+      fontFamily: {
+        customFont: ["Ubuntu", "sans-serif"],
+      },
+      colors: {},
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")],
 };

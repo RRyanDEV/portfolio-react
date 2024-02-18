@@ -13,7 +13,8 @@
 </a>
 
 <br>
-<img src="https://img.shields.io/badge/version-0.0.2-240213?" height="22" alt="Version"/>
+
+<img src="https://img.shields.io/badge/version-0.0.3-240218?" height="22" alt="Version"/>
 
 <br>
 
@@ -26,6 +27,14 @@
 ## Notas de versão
 
 </a>
+
+### v0.0.3.240218
+
+- Criado a seção das tecnologias, que eu trabalho.
+- Criado o componente das tecnologias.
+- Ajustes na responsividade para dispositivos mobile.
+- Ajuste no background, corrigindo a sobreposição do efeito.
+- Modificação da scrollbar.
 
 ### v0.0.2.240213
 
