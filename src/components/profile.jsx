@@ -17,7 +17,7 @@ export default function Profile({
         className="flex bg-gray-900 flex-col items-center"
       >
         <Image
-          className="w-40 h-40 absolute top-16 rounded-full border-4"
+          className="w-40 h-40 absolute z-10 top-16 rounded-full border-4"
           src={imgSrc}
           alt={imgAlt}
         />
@@ -27,7 +27,7 @@ export default function Profile({
           </div>
           <div
             id="subtitles"
-            className="flex flex-col items-center text-center space-y-3 text-gray-400"
+            className="flex flex-col items-center text-center space-y-7 text-gray-400"
           >
             <p>{subtitle1}</p>
             <p>{subtitle2}</p>

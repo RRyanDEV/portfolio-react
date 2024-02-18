@@ -67,7 +67,7 @@ export default function StacksContent({ titleStack, EndTitleStack, ...props }) {
 
   return (
     <>
-      <div className="text-white flex flex-col items-center mt-8">
+      <div className="text-white flex flex-col items-center mt-14">
         <h1 className="font-customFont text-2xl mb-3">Conhecimentos</h1>
 
         <div
