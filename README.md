@@ -28,6 +28,13 @@
 
 </a>
 
+### v0.0.4.240410
+
+- Feito um Icon SVG genérico.
+- Adicionados novas tecnologias na seção de `Conhecimentos`.
+- Ajuste na seção de `Conhecimentos`.
+- Instalado a biblioteca do `Tailwind Merge`.
+
 ### v0.0.3.240218
 
 - Criado a seção das tecnologias, que eu trabalho.

@@ -1,7 +1,7 @@
 import Image from "next/image";
-import ButtonsContent from "./buttonsContent";
+import ButtonsContent from "../ButtonsComponent";
 
-export default function Profile({
+export default function ProfileComponent({
   imgSrc,
   imgAlt,
   cardTitle,
@@ -34,7 +34,7 @@ export default function Profile({
             <p className="w-3/4">{bio}</p>
           </div>
         </div>
-        <ButtonsContent/>
+        <ButtonsContent />
       </div>
     </>
   );

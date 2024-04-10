@@ -1,11 +1,11 @@
-import Profile from "./profile";
-import profilePic from "../images/profileUser.jpeg";
+import profilePic from "../../images/profileUser.jpeg";
+import ProfileComponent from "./ProfileComponent";
 
 export default function ProfileContent() {
   return (
     <>
       <div id="mainContaier" className="flex flex-col pt-36">
-        <Profile
+        <ProfileComponent
           imgSrc={profilePic}
           imgAlt={"Foto de Perfil do Usuário"}
           cardTitle={"Ryan Gomes"}
