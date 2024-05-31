@@ -114,7 +114,7 @@ export const techStackIcons = [
   },
   {
     stack: <FaGithubSquare />,
-    nome: "GitHub Pages",
+    nome: "Git Pages",
     url: "https://pages.github.com",
   },
   {

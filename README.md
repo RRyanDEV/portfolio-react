@@ -61,6 +61,9 @@ yarn dev
 
 </a>
 
+### v0.1.5.240531
+- Ajustes na responsividade para dispositivos mobile.
+
 ### v0.1.4.240531
 - Atualização do NextJS.
 - Instalação das bibliotecas: `github-calendar` , `react-spinners` , `react-tooltip`.

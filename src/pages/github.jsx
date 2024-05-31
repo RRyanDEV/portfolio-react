@@ -120,8 +120,8 @@ const GithubPage = ({ ...props }) => {
         </div>
       ) : (
         <div className="mb-7 items-center flex flex-col">
-          <div className="z-10 flex max-sm:w-2/3 w-1/2 p-3 px-10 items-center justify-center rounded-t-lg gap-10 text-white bg-green-500/50">
-            <div className="flex  flex-col items-center justify-center space-y-3">
+          <div className="z-10 flex max-sm:w-11/12 w-1/2 p-3 px-10 items-center justify-center rounded-t-lg gap-10 text-white bg-green-500/50">
+            <div className="flex flex-col items-center justify-center space-y-3">
               {/* Avatar e Informações */}
               <Image
                 src={user.avatar_url}
@@ -138,11 +138,11 @@ const GithubPage = ({ ...props }) => {
             </div>
           </div>
           <div></div>
-          <div className="grid items-center justify-center w-1/2 grid-cols-2 grid-rows-3 gap-6 max-sm:grid max-sm:grid-cols-1 max-sm:grid-rows-1 max-sm:gap-4">
+          <div className="grid items-center justify-center w-1/2 grid-cols-2 grid-rows-3 gap-6 max-sm:grid max-sm:w-3/4 max-sm:grid-cols-1 max-sm:grid-rows-1 max-sm:gap-4">
             {repos.map((repo, idx) => (
               <RepoCard key={repo.id + "-" + idx} repo={repo} />
             ))}
-          {/* Container dos projetos */}
+            {/* Container dos projetos */}
           </div>
           <div className="text-white mt-10">
             {/* <GitHubCalendar

@@ -10,12 +10,14 @@ const RepoCard = ({ repo }) => {
     <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 flex flex-col my-5 z-10 justify-between max-sm:p-3 rounded-lg h-48 ">
       {/* Estilo dos Cards */}
       <div className="flex m-0 p-0 text-black flex-col">
-        <div className="flex p-2 border-gray-900 rounded-t-lg bg-green-500 font-semibold  w-full">
+        <div className="flex p-2 border-gray-900 rounded-t-lg bg-green-500 font-medium w-full">
           <h2 className="">{repo.name}</h2>
         </div>
-        <div className="flex flex-col bg-white justify-between text-left h-36 pl-2">
-          <p>{repo.description}</p>
-          <p className="font-medium">Último commit em {date}</p>
+        <div className="flex flex-col bg-white justify-between text-left h-36 px-2">
+          <div className="pt-2 font-serif text-gray-900">
+            <p>{repo.description}</p>
+          </div>
+          <p className="font-medium text-red-600">Último commit em {date}</p>
         </div>
       </div>
       <div>
