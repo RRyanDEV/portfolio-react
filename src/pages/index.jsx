@@ -30,7 +30,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="bg-gray-900 h-auto">
+      <div className="bg-gray-900 font-customFont h-auto">
         <ProfileContent></ProfileContent>
         <StackContent></StackContent>
 

@@ -61,6 +61,11 @@ yarn dev
 
 </a>
 
+### v0.1.6.240531
+- Ajuste na fonte dos textos.
+- Ajuste de tamanho das fontes.
+- Mudança na cor dos cards dos projetos.
+
 ### v0.1.5.240531
 - Ajustes na responsividade para dispositivos mobile.
 
