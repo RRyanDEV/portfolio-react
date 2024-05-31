@@ -1,5 +1,6 @@
 import ProfileContent from "@/components/Profile/ProfileContent";
 import StackContent from "@/components/Profile/StackContent";
+import GithubPage from "@/pages/github";
 import React from "react";
 import ParticleBackground from "react-particle-backgrounds";
 
@@ -32,6 +33,10 @@ export default function Home() {
       <div className="bg-gray-900 h-auto">
         <ProfileContent></ProfileContent>
         <StackContent></StackContent>
+
+        <div className="flex flex-col mt-14 justify-center items-center">
+        <GithubPage></GithubPage>
+        </div>
 
         <div className="fixed top-0 h-screen w-full">
           <ParticleBackground settings={settings} />

@@ -1,7 +1,7 @@
-export default function StackCard({ key, nome, src, children, ...props }) {
+export default function StackCard({nome, src, children, ...props }) {
   return (
     <>
-      <div key={key}>
+      <div>
         <a
           href={src}
           className="text-white text-2xl max-sm:text-3xl flex flex-col items-center justify-center"

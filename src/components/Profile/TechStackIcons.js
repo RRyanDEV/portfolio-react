@@ -38,8 +38,8 @@ import { SiGnubash } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import { SiVisualstudiocode } from "react-icons/si";
 import { SiAdobephotoshop } from "react-icons/si";
-import SvgIcon from "../ImageComponents/SvgIcon";
-import ObsIcon from "../ImageComponents/ObsIcon";
+import SvgIcon from "../Icons/SvgIcon";
+import ObsIcon from "../Icons/ObsIcon";
 
 export const techStackIcons = [
   {
@@ -149,12 +149,12 @@ export const techStackIcons = [
   },
   {
     stack: <SiVisualstudiocode />,
-    nome: "Visual Studio Code",
+    nome: "VS Code",
     url: "https://code.visualstudio.com",
   },
   {
     stack: <SiAdobephotoshop />,
-    nome: "Adobe Photoshop",
+    nome: "Photoshop",
     url: "https://www.adobe.com/br/products/photoshop.html",
   },
   {
