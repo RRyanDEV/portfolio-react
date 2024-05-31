@@ -120,7 +120,7 @@ const GithubPage = ({ ...props }) => {
         </div>
       ) : (
         <div className="mb-7 items-center flex flex-col">
-          <div className="z-10 flex max-sm:w-11/12 w-1/2 p-3 px-10 items-center justify-center rounded-t-lg gap-10 text-white bg-green-500/50">
+          <div className="z-10 flex max-sm:w-11/12 w-1/2 p-3 px-10 items-center justify-center rounded-t-lg gap-10 text-white bg-violet-700/75 ">
             <div className="flex flex-col items-center justify-center space-y-3">
               {/* Avatar e Informações */}
               <Image

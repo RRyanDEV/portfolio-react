@@ -159,7 +159,7 @@ export const techStackIcons = [
   },
   {
     stack: (
-      <SvgIcon className="fill-white hover:fill-green-500">
+      <SvgIcon className="fill-white hover:fill-violet-700">
         <ObsIcon />
       </SvgIcon>
     ),

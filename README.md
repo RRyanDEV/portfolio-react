@@ -61,6 +61,12 @@ yarn dev
 
 </a>
 
+### v0.2.6.240531
+- Mudança nas cores do projeto.
+- Ajuste de tamanho das fontes.
+- Adicionado um modo claro/escuro.
+- Adicionado um botão para alterar entre os temas.
+
 ### v0.1.6.240531
 - Ajuste na fonte dos textos.
 - Ajuste de tamanho das fontes.

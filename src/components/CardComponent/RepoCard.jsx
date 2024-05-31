@@ -9,8 +9,8 @@ const RepoCard = ({ repo }) => {
   return (
     <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 flex flex-col my-5 z-10 justify-between max-sm:p-3 rounded-lg h-48 ">
       {/* Estilo dos Cards */}
-      <div className="flex m-0 p-0 text-black flex-col">
-        <div className="flex p-2 border-gray-900 rounded-t-lg bg-green-500 font-medium text-lg w-full">
+      <div className="flex m-0 p-0 text-white flex-col">
+        <div className="flex p-2 border-gray-900 rounded-t-lg bg-violet-700 font-medium text-lg w-full">
           <h2 className="">{repo.name}</h2>
         </div>
         <div className="flex flex-col text-white bg-gray-800/95 justify-between text-left h-36 px-2">

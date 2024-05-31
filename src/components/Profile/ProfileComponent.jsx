@@ -14,7 +14,7 @@ export default function ProfileComponent({
     <>
       <div
         id="containerUser"
-        className="flex bg-gray-900 flex-col items-center"
+        className="flex flex-col items-center"
       >
         <Image
           className="w-40 h-40 absolute z-10 top-16 rounded-full border-4"
@@ -23,11 +23,11 @@ export default function ProfileComponent({
         />
         <div id="texts" className="flex items-center mb-6 pt-20 flex-col">
           <div id="title" className="flex text-3xl m-6">
-            <h1 className="font-customFont text-white">{cardTitle}</h1>
+            <h1 className="font-customFont dark:text-white">{cardTitle}</h1>
           </div>
           <div
             id="subtitles"
-            className="flex flex-col items-center text-center space-y-7 text-gray-400"
+            className="flex flex-col items-center text-center space-y-7 dark:text-gray-400"
           >
             <p>{subtitle1}</p>
             <p>{subtitle2}</p>

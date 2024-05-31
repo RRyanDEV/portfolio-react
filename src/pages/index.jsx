@@ -3,6 +3,7 @@ import StackContent from "@/components/Profile/StackContent";
 import GithubPage from "@/pages/github";
 import React from "react";
 import ParticleBackground from "react-particle-backgrounds";
+import ButtonToggle from "@/components/ModeComponent/ButtonToggle";
 
 export default function Home() {
   const settings = {
@@ -11,7 +12,7 @@ export default function Home() {
     },
     particle: {
       particleCount: 100,
-      color: "#22c55e",
+      color: "#8b5cf6",
       minSize: 2,
       maxSize: 4,
     },
@@ -30,7 +31,8 @@ export default function Home() {
 
   return (
     <>
-      <div className="bg-gray-900 font-customFont h-auto">
+      <div className="dark:bg-stone-950 bg-slate-200 font-customFont h-auto">
+        <ButtonToggle></ButtonToggle>
         <ProfileContent></ProfileContent>
         <StackContent></StackContent>
 
