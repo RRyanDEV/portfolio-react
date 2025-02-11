@@ -6,7 +6,11 @@ export default function ButtonsContent() {
           id="gridBtn"
           className="grid grid-cols-2 gap-8 max-sm:grid-cols-1 max-sm:mt-3 max-sm:mb-10"
         >
-          <a target="_blank" href="Currículo_Ryan.pdf" download="Currículo_Ryan">
+          <a
+            target="_blank"
+            href="curriculum.pdf"
+            download="Currículo_Ryan.pdf"
+          >
             <button className="w-60 hover:text-white bg-violet-700 text-white  hover:bg-violet-700/50 font-medium rounded-lg text-sm p-3 text-center justify-center items-center">
               Download Currículo
             </button>

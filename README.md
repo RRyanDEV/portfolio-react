@@ -61,6 +61,9 @@ yarn dev
 
 </a>
 
+### v1.0.1.250210
+- Atualização no meu currículo.
+
 ### v1.0.0.240806
 - Versão final do meu portfólio.
 - Ajustes no botão de "Download" do meu currículo.
