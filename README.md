@@ -61,6 +61,9 @@ yarn dev
 
 </a>
 
+### v1.0.2.250316
+- Atualização no meu currículo.
+
 ### v1.0.1.250210
 - Atualização no meu currículo.
 
