@@ -7,7 +7,7 @@ import ThemeToggle from "../Mode";
 export default function NavegationBar() {
   return (
     <>
-      <nav className="h-12 flex justify-between max-sm:mx-2 max-sm:px-2.5 mx-5 px-5 items-center rounded-b-xl bg-gray-900/50 shadow-lg ring-1 ring-black/5">
+      <nav className="align-margin-padd h-12 flex justify-between items-center rounded-b-xl bg-gray-900/50 shadow-lg ring-1 ring-black/5">
         <div
           id="navContent"
           className="flex flex-row w-full items-center justify-between"
@@ -18,9 +18,7 @@ export default function NavegationBar() {
           >
             <div className="underline-effect flex items-center gap-2">
               <FaInfoCircle className="text-md" />
-              <a href="#">
-                About
-              </a>
+              <a href="#">About</a>
             </div>
             <div className="underline-effect flex items-center gap-2">
               <FaCode className="text-md" />

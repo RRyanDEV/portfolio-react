@@ -1,11 +1,15 @@
 import NavegationBar from "@/components/NavegationBar";
+import About from "@/components/SectionAbout";
 
 export default function Home() {
   return (
     <>
-      <div className="h-screen" id="parentHome">
+      <div className="flex flex-col h-screen dark:bg-gray-700" id="parentHome">
         <NavegationBar />
-        <h1 className="text-8xl bg-gradient-to-br from-slate-600 to-emerald-500 bg-clip-text text-transparent">Hi, I'm Ryan Gomes</h1>
+        <div id="welcome" className="align-margin-padd mt-28 mb-10 max-sm:text-6xl text-7xl">
+          <h1>Welcome to My Portfolio</h1>
+        </div>
+        <About />
       </div>
     </>
   );

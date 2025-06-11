@@ -19,7 +19,8 @@
     "react-dom": "^19.0.0",
     "react-flagkit": "^2.0.4",
     "react-icons": "^5.5.0",
-    "tailwindcss": "^4.1.8"
+    "tailwindcss": "^4.1.8",
+    "typewriter-effect": "^2.22.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

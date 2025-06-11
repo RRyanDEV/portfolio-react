@@ -38,6 +38,7 @@ https://github.com/othneildrew/Best-README-Template
 
 ### v1.0.3.250610
 
+- Instalação da biblioteca: `typewriter-effect`.
 - Adicionado suporte ao tema Claro/Escuro
 - Ajustes na barra de navegação.
 - Mudança/Atualização nas tecnologias utilizadas.
