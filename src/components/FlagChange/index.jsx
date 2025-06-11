@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import Flag from "react-flagkit";
 
-
 export default function FlagToggle() {
   let [language, setLanguage] = useState("false");
   useEffect(() => {
@@ -22,6 +21,7 @@ export default function FlagToggle() {
         {language ? (
           <Flag className="cursor-pointer" country="US" size={20} />
         ) : (
+          // TODO Adicionar efeito de FadeIn no botão de troca de idioma.
           <Flag className="cursor-pointer" country="BR" size={20} />
         )}
       </button>

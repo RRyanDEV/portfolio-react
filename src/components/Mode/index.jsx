@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { FaMoon } from "react-icons/fa";
 import { IoSunny } from "react-icons/io5";
 
-
 export default function ThemeToggle() {
   let [darkMode, setDarkMode] = useState("false");
   useEffect(() => {
@@ -20,6 +19,7 @@ export default function ThemeToggle() {
           setDarkMode(!darkMode);
         }}
         className="text-white text-xl pr-5 cursor-pointer"
+        // TODO Adicionar efeito de FadeIn no botão de troca de tema.
       >
         {darkMode ? <FaMoon /> : <IoSunny />}
       </button>

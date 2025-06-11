@@ -36,6 +36,12 @@ https://github.com/othneildrew/Best-README-Template
 
 </a>
 
+### v1.0.4.250611
+
+- Ajuste na incompatibilidade do `Flowbite React` com o `TailwindCSS`.
+- Correção das versões presentes no `package-lock` e no `yarn.lock`.
+- Alteração no ícone da barra de navegação.
+
 ### v1.0.3.250610
 
 - Instalação da biblioteca: `typewriter-effect`.

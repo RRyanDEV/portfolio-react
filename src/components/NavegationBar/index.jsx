@@ -1,5 +1,6 @@
-import { Kbd, Tooltip } from "flowbite-react";
-import { FaCode, FaInfoCircle } from "react-icons/fa";
+import { Tooltip } from "flowbite-react";
+import { LuBlocks } from "react-icons/lu";
+import { FaInfoCircle } from "react-icons/fa";
 import { IoMdContact } from "react-icons/io";
 import FlagToggle from "../FlagChange";
 import ThemeToggle from "../Mode";
@@ -21,8 +22,8 @@ export default function NavegationBar() {
               <a href="#">About</a>
             </div>
             <div className="underline-effect flex items-center gap-2">
-              <FaCode className="text-md" />
-              <a href="#">Project</a>
+              <LuBlocks className="text-md" />
+              <a href="#">Projects</a>
             </div>
             <div className="underline-effect flex items-center gap-2">
               <IoMdContact className="text-md" />
