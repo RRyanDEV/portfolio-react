@@ -1,4 +1,3 @@
-
 <!--
 Readme used from model
 https://github.com/othneildrew/Best-README-Template
@@ -31,62 +30,53 @@ https://github.com/othneildrew/Best-README-Template
 [![TAIL][TAILWINDCSS]][tailw-url]
 [![NEXTJS][NEXT.JS]][nextjs-url]
 
-## Rodando Localmente
-##### Clone o Repositório
-```bash
-git clone https://github.com/RRyanDEV/portfolio-react.git
-```
-##### Instale as dependências
-```bash
-yarn 
-```
-##### Crie as variáveis de ambiente.
-```bash
-1. Crie um arquivo .env na pasta do projeto.
-2. Adicione essas duas linhas:
-NEXT_PUBLIC_GITHUB_USERNAME= "Nome do GitHub"
-NEXT_PUBLIC_GITHUB_API_KEY= "Token do Github" 
-
-#obs: coloque sem as "".
-```
-##### Execute o projeto.
-```bash
-yarn dev
-```
-<br />
- 
 <a name="section-changelog">
 
 ## Notas de versão
 
 </a>
 
+### v1.0.3.250610
+
+- Adicionado suporte ao tema Claro/Escuro
+- Ajustes na barra de navegação.
+- Mudança/Atualização nas tecnologias utilizadas.
+- Reestilização do portifólio. `(EM PRODUÇÃO)`
+- Removido `API` de conexão com o `Github`, que fazia a exibição dos projetos no Github.
+
 ### v1.0.2.250316
+
 - Atualização no meu currículo.
 
 ### v1.0.1.250210
+
 - Atualização no meu currículo.
 
 ### v1.0.0.240806
+
 - Versão final do meu portfólio.
 - Ajustes no botão de "Download" do meu currículo.
 - Adicionado meu currículo para download.
 
 ### v0.2.6.240531
+
 - Mudança nas cores do projeto.
 - Ajuste de tamanho das fontes.
 - Adicionado um modo claro/escuro.
 - Adicionado um botão para alterar entre os temas.
 
 ### v0.1.6.240531
+
 - Ajuste na fonte dos textos.
 - Ajuste de tamanho das fontes.
 - Mudança na cor dos cards dos projetos.
 
 ### v0.1.5.240531
+
 - Ajustes na responsividade para dispositivos mobile.
 
 ### v0.1.4.240531
+
 - Atualização do NextJS.
 - Instalação das bibliotecas: `github-calendar` , `react-spinners` , `react-tooltip`.
 - Criado uma seção com projetos do GitHub.
@@ -150,7 +140,6 @@ yarn dev
 [stars-url]: https://github.com/RRyanDEV/portfolio-react/stargazers
 [issues-shield]: https://img.shields.io/github/issues/RRyanDEV/portfolio-react?style=for-the-badge
 [issues-url]: https://github.com/RRyanDEV/portfolio-react/issues
-
 [REACT]: https://img.shields.io/badge/React-%2320232a.svg?&style=for-the-badge&logo=React&logoColor=%2361DAFB
 [react-url]: https://pt-br.reactjs.org
 [TAILWINDCSS]: https://img.shields.io/badge/TailwindCSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white

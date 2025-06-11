@@ -2,11 +2,12 @@ import { useEffect, useState } from "react";
 import { FaMoon } from "react-icons/fa";
 import { IoSunny } from "react-icons/io5";
 
-export default function ButtonToggle() {
+
+export default function ThemeToggle() {
   let [darkMode, setDarkMode] = useState("false");
   useEffect(() => {
     if (darkMode) {
-      document.documentElement.classList.add('dark');
+      document.documentElement.classList.add("dark");
     } else {
       document.documentElement.classList.remove("dark");
     }
@@ -18,9 +19,9 @@ export default function ButtonToggle() {
         onClick={() => {
           setDarkMode(!darkMode);
         }}
-        className="z-10 absolute max-sm:right-3 right-10 top-5 dark:text-white text-black text-xl px-5 py-3 rounded"
+        className="text-white text-xl pr-5 cursor-pointer"
       >
-        {darkMode ? <IoSunny /> : <FaMoon />}
+        {darkMode ? <FaMoon /> : <IoSunny />}
       </button>
     </>
   );
