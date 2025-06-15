@@ -3,7 +3,6 @@ import { LuBlocks } from "react-icons/lu";
 import { FaInfoCircle } from "react-icons/fa";
 import { IoMdContact } from "react-icons/io";
 import FlagToggle from "../FlagChange";
-import ThemeToggle from "../Mode";
 
 export default function NavegationBar() {
   return (
@@ -19,7 +18,7 @@ export default function NavegationBar() {
           >
             <div className="underline-effect flex items-center gap-2">
               <FaInfoCircle className="text-md" />
-              <a href="#">About</a>
+              <a href="#About">About</a>
             </div>
             <div className="underline-effect flex items-center gap-2">
               <LuBlocks className="text-md" />
@@ -31,7 +30,6 @@ export default function NavegationBar() {
             </div>
           </div>
           <div className="flex items-center flex-row" id="optionNav">
-            <ThemeToggle />
             <Tooltip content="Translate" placement="bottom">
               <FlagToggle />
             </Tooltip>

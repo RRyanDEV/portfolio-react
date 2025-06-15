@@ -36,6 +36,14 @@ https://github.com/othneildrew/Best-README-Template
 
 </a>
 
+### v1.0.5.250615
+
+- Atualização do `Flowbite React`.
+- Removido suporte ao tema Claro/Escuro
+- Ajustes no alinhamento do texto da seção `Sobre`
+- Modificação na homepage.
+- Ajustes nas responsividade.
+
 ### v1.0.4.250611
 
 - Ajuste na incompatibilidade do `Flowbite React` com o `TailwindCSS`.
