@@ -36,13 +36,20 @@ https://github.com/othneildrew/Best-README-Template
 
 </a>
 
+### v1.0.6.250624
+
+- Ajustes na seção de `Sobre`.
+- Criado um carrosel para a seção `Sobre`.
+- Criação de um card para colocar as informações pessoais.
+- Ajustes na reponsividade.
+
 ### v1.0.5.250615
 
 - Atualização do `Flowbite React`.
 - Removido suporte ao tema Claro/Escuro
 - Ajustes no alinhamento do texto da seção `Sobre`
 - Modificação na homepage.
-- Ajustes nas responsividade.
+- Ajustes na responsividade.
 
 ### v1.0.4.250611
 

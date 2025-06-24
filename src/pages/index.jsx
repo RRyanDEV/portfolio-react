@@ -5,7 +5,7 @@ import Welcome from "@/components/Sections/Welcome";
 export default function Home() {
   return (
     <>
-      <div className="m-0 p-0 flex flex-col bg-gray-700 h-screen">
+      <div className="flex flex-col bg-gray-700 h-screen">
         <NavegationBar />
         <div className="flex justify-center items-center min-lg:h-full h-3/4">
           <Welcome />

@@ -3,7 +3,7 @@
 @source "../../.flowbite-react/class-list.json";
 
 html {
-  @apply !scroll-smooth;
+  @apply !scroll-smooth m-0 p-0;
 }
 
 /* Alignt Margin and Padding of all elements */
