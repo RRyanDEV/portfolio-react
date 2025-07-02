@@ -36,6 +36,12 @@ https://github.com/othneildrew/Best-README-Template
 
 </a>
 
+### v1.0.7.250701
+
+- Adicionado uma nova sessão para meus Certificados.
+- Ajustes na `Barra de Navegação` para dispositivos mobile.
+- Adicionado o componente de `Carousel` da biblioteca do `Shadcn`.
+
 ### v1.0.6.250624
 
 - Ajustes na seção de `Sobre`.

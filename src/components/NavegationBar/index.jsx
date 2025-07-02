@@ -1,6 +1,7 @@
 import { Tooltip } from "flowbite-react";
-import { LuBlocks } from "react-icons/lu";
 import { FaInfoCircle } from "react-icons/fa";
+import { PiCertificateFill } from "react-icons/pi";
+import { LuBlocks } from "react-icons/lu";
 import { IoMdContact } from "react-icons/io";
 import FlagToggle from "../FlagChange";
 
@@ -13,12 +14,16 @@ export default function NavegationBar() {
           className="flex flex-row w-full items-center justify-between"
         >
           <div
-            className="text-white justify-center max-sm:text-xs flex gap-5 flex-row"
+            className="text-white justify-center max-sm:text-xs flex max-sm:gap-2 gap-5 flex-row"
             id="navegationItems"
           >
             <div className="underline-effect flex items-center gap-2">
               <FaInfoCircle className="text-md" />
               <a href="#About">About</a>
+            </div>
+            <div className="underline-effect flex items-center gap-2">
+              <PiCertificateFill className="text-md" />
+              <a href="#">Certifications</a>
             </div>
             <div className="underline-effect flex items-center gap-2">
               <LuBlocks className="text-md" />

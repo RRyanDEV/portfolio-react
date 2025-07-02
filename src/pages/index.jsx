@@ -12,8 +12,11 @@ export default function Home() {
         </div>
       </div>
       <div id="informations" className="flex flex-col justify-between">
-        <div id="information_Item" className="h-screen bg-red-700">
+        <div id="information_Item" className="h-screen bg-gray-900">
           <About />
+        </div>
+        <div id="information_Item" className="h-screen bg-blue-800">
+          {/* <Certifications /> */}
         </div>
         <div id="information_Item" className="h-screen bg-green-800">
           {/* <Projects /> */}
