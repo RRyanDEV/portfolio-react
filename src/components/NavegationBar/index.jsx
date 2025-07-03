@@ -19,7 +19,7 @@ export default function NavegationBar() {
           >
             <div className="underline-effect flex items-center gap-2">
               <FaInfoCircle className="text-md" />
-              <a href="#About">About</a>
+              <a href="#section_about">About</a>
             </div>
             <div className="underline-effect flex items-center gap-2">
               <PiCertificateFill className="text-md" />

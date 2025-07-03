@@ -36,6 +36,16 @@ https://github.com/othneildrew/Best-README-Template
 
 </a>
 
+### v1.0.8.250703
+
+- Correção no direcionamento dos links na `Barra de Navegação`.
+- Mudança na seção: `Sobre Mim`.
+- Removido o `Carousel` da seção: `Sobre Mim`.
+- Ajustes de performance no carregamento das informações da página.
+- Criado uma seção para as tecnologias.
+- Ajustes na Homepage.
+- Pasta `data`; Onde contém arquivos `.json` que gerenciam algumas informações do projeto.
+
 ### v1.0.7.250701
 
 - Adicionado uma nova sessão para meus Certificados.

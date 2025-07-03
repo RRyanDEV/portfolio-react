@@ -1,5 +1,6 @@
 import NavegationBar from "@/components/NavegationBar";
 import About from "@/components/Sections/About";
+import Skills from "@/components/Sections/Technologies";
 import Welcome from "@/components/Sections/Welcome";
 
 export default function Home() {
@@ -14,6 +15,9 @@ export default function Home() {
       <div id="informations" className="flex flex-col justify-between">
         <div id="information_Item" className="h-screen bg-gray-900">
           <About />
+        </div>
+        <div id="information_Item" className="bg-gray-900">
+          <Skills />
         </div>
         <div id="information_Item" className="h-screen bg-blue-800">
           {/* <Certifications /> */}

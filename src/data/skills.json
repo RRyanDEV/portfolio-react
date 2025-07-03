@@ -1,0 +1,62 @@
+
+
+{
+  "front-end-technologies": [
+    {
+      "id": "ft1",
+      "name": "React / Next.JS"
+    },
+    {
+      "id": "ft2",
+      "name": "JavaScript"
+    },
+    {
+      "id": "ft3",
+      "name": "TailwindCSS"
+    },
+    {
+      "id": "ft4",
+      "name": "HTML5 / CSS3 / SASS"
+    },
+    {
+      "id": "ft5",
+      "name": "Shadcn/ui"
+    }
+  ],
+  "back-end-technologies": [
+    {
+      "id": "bt1",
+      "name": "Go"
+    },
+    {
+      "id": "bt2",
+      "name": "PHP"
+    },
+    {
+      "id": "bt3",
+      "name": "MySQL"
+    }
+  ],
+  "tools-and-others": [
+    {
+      "id": "t1",
+      "name": "Docker"
+    },
+    {
+      "id": "t2",
+      "name": "GIT / Github"
+    },
+    {
+      "id": "t3",
+      "name": "Vercel"
+    },
+    {
+      "id": "t4",
+      "name": "MacOS / iOS"
+    },
+    {
+      "id": "t5",
+      "name": "Windows"
+    }
+  ]
+}

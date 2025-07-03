@@ -10,8 +10,8 @@ export default function Welcome() {
             <Typewriter
               options={{
                 strings: [
-                  "Welcome to My Portfolio",
-                  "Bem vindo ao meu portfólio",
+                  "Welcome to portfolio of RRyanDEV",
+                  "Bem vindo ao portfólio de RRyanDEV",
                 ],
                 autoStart: true,
                 loop: true,
@@ -22,7 +22,7 @@ export default function Welcome() {
         <div
           id="arrow"
           className="flex rounded-full animate-bounce max-sm:text-2xl text-3xl justify-center">
-          <a href="#About">
+          <a href="#section_about">
             <FaArrowAltCircleDown />
           </a>
         </div>
