@@ -7,7 +7,7 @@ export default function About() {
     <>
       <div
         id="section_about"
-        className="flex max-sm:flex-col-reverse h-full items-center justify-center"
+        className="flex max-sm:flex-col-reverse py-10 h-full items-center justify-center"
       >
         <Card className="hidden-style max-sm:w-full max-sm:h-3/4 w-1/2">
           {userData.map((item) => (
@@ -17,11 +17,12 @@ export default function About() {
               </h5>
               <p className="font-normal max-sm:text-sm font-mono text-gray-400">
                 {item.bio}
+                {/* 1317 caractecres */}
               </p>
             </div>
           ))}
         </Card>
-       <h1>OALSDLSDPFJASDGNAKSDLGNASDKBG</h1>
+        <div class="bg-[url('../assets/ProfileImg.jpg')] h-[500px] w-[350px] max-sm:w-[250px] max-sm:h-[320px] max-sm:bg-center bg-cover bg-no-repeat"></div>
       </div>
     </>
   );

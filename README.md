@@ -36,6 +36,16 @@ https://github.com/othneildrew/Best-README-Template
 
 </a>
 
+### v1.0.9.250704
+
+- Adicionado a biblioteca do `Framer Motion`.
+- Adicionado efeitos nos cartões das tecnologias.
+- Adicionado uma imagem template, pra ajustes no profile.
+- Atualização da cor de fundo de alguns componentes.
+- Ajuste no `.json`, que contém as informações das tecnologias.
+- Ajustes no espaçamento da seção: `Sobre Mim`.
+- Troca dos ícones das categorias referentes as áreas que atuo.
+
 ### v1.0.8.250703
 
 - Correção no direcionamento dos links na `Barra de Navegação`.
