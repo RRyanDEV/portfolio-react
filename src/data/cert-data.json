@@ -1,0 +1,36 @@
+{
+  "minicurso-go": [
+    {
+      "id": "1",
+      "title": "Minicurso Introdução ao Go",
+      "link": "https://app.rocketseat.com.br/certificates/71de2d63-6a15-4daf-b872-b3e89ca66ef6",
+      "company": "Rocketseat",
+      "time": "3 Horas",
+      "date": "2025-06-17",
+      "skills": [
+        "Desenvolvimento de Software",
+        "Backend",
+        "Desenvolvimento Desktop",
+        "Aprendizado Rápido"
+      ],
+      "languages": ["Go"]
+    }
+  ],
+  "minicurso-react-native": [
+    {
+      "id": "1",
+      "title": "Minicurso React Native",
+      "link": "https://app.rocketseat.com.br/certificates/3a89fbf8-9e25-4511-8315-34f0f663a583",
+      "company": "Rocketseat",
+      "time": "5 Horas",
+      "date": "2024-10-15",
+      "skills": [
+        "Desenvolvimento Mobile",
+        "Backend",
+        "Desenvolvimento de Frontend",
+        "Aprendizado Rápido"
+      ],
+      "languages": ["TypeScript", "React Native", "EXPO"]
+    }
+  ]
+}

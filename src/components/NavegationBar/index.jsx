@@ -23,7 +23,7 @@ export default function NavegationBar() {
             </div>
             <div className="underline-effect flex items-center gap-2">
               <PiCertificateFill className="text-md" />
-              <a href="#">Certifications</a>
+              <a href="#section_cert">Certifications</a>
             </div>
             <div className="underline-effect flex items-center gap-2">
               <LuBlocks className="text-md" />

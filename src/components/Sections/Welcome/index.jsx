@@ -10,7 +10,7 @@ export default function Welcome() {
             <Typewriter
               options={{
                 strings: [
-                  "Welcome to portfolio of RRyanDEV",
+                  "Welcome to RRyanDEV's portfolio",
                   "Bem vindo ao portfólio de RRyanDEV",
                 ],
                 autoStart: true,

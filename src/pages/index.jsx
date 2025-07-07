@@ -1,5 +1,6 @@
 import NavegationBar from "@/components/NavegationBar";
 import About from "@/components/Sections/About";
+import CarouselCertifications from "@/components/Sections/Certifications/Carousel";
 import Skills from "@/components/Sections/Technologies";
 import Welcome from "@/components/Sections/Welcome";
 
@@ -19,8 +20,8 @@ export default function Home() {
         <div id="information_item">
           <Skills />
         </div>
-        <div id="information_item" className="h-screen bg-blue-800">
-          {/* <Certifications /> */}
+        <div id="information_item">
+          <CarouselCertifications />
         </div>
         <div id="information-item" className="h-screen bg-green-800">
           {/* <Projects /> */}

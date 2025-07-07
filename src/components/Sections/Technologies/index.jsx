@@ -10,10 +10,6 @@ export default function Skills() {
         <h3>Skills</h3>
       </div>
       <div
-        id="techs"
-        className="flex flex-row justify-center max-sm:flex-col gap-5"
-      ></div>
-      <div
         id="Technologies"
         className="max-sm:flex-col max-sm:gap-10 flex p-10 justify-between align-margin-padd"
       >

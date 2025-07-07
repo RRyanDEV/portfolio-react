@@ -36,6 +36,16 @@ https://github.com/othneildrew/Best-README-Template
 
 </a>
 
+### v1.0.10.250706
+
+- Remoção da imagem template que tinha na seção: `Sobre Mim`.
+- Criado uma seção para as `Certificações`.
+- Adicionado um carrossel na seção de `Certificações`.
+- Criado um arquivo `.json`, para gerenciar as informações dos certificados.
+- Adicionado o direcionamento aos `Certificados` na `Barra de Navegação`.
+- Refatorado o componente que gerava o cartão de tecnologias.
+- Adicionado uma descrição na seção `Sobre Mim`.
+
 ### v1.0.9.250704
 
 - Adicionado a biblioteca do `Framer Motion`.
