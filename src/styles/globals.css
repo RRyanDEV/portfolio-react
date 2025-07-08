@@ -14,7 +14,7 @@ body {
 }
 
 /* Alignt Margin and Padding of all elements */
-.align-margin-padd {
+.align-marg-padd {
   @apply max-sm:mx-2 max-sm:px-2.5 mx-5 px-5;
 }
 

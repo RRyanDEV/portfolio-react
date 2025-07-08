@@ -36,6 +36,15 @@ https://github.com/othneildrew/Best-README-Template
 
 </a>
 
+### v1.0.11.250708
+
+- Adicionado um `Footer` para página.
+- Adicionado `inputs` da biblioteca do `Shadcn/ui`.
+- Criado uma seção para `Contato`.
+- Ajustes na estruturação do componente de Tecnologias.
+- Adicionado o direcionamento ao `Contato` na `Barra de Navegação`.
+- Criado um componente padrão para as `Seções`.
+
 ### v1.0.10.250706
 
 - Remoção da imagem template que tinha na seção: `Sobre Mim`.

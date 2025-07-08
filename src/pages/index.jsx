@@ -1,7 +1,6 @@
+import Footer from "@/components/Footer";
 import NavegationBar from "@/components/NavegationBar";
-import About from "@/components/Sections/About";
-import CarouselCertifications from "@/components/Sections/Certifications/Carousel";
-import Skills from "@/components/Sections/Technologies";
+import Sections from "@/components/Sections";
 import Welcome from "@/components/Sections/Welcome";
 
 export default function Home() {
@@ -13,23 +12,8 @@ export default function Home() {
           <Welcome />
         </div>
       </div>
-      <div id="informations" className="flex flex-col justify-between">
-        <div id="information_item">
-          <About />
-        </div>
-        <div id="information_item">
-          <Skills />
-        </div>
-        <div id="information_item">
-          <CarouselCertifications />
-        </div>
-        <div id="information-item" className="h-screen bg-green-800">
-          {/* <Projects /> */}
-        </div>
-        <div id="information_item" className="h-screen bg-purple-700">
-          {/* <Contact /> */}
-        </div>
-      </div>
+      <Sections />
+      <Footer />
     </>
   );
 }

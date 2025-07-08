@@ -44,8 +44,7 @@ export default function CarouselCertifications() {
           <CarouselPrevious />
           <CarouselNext />
         </Carousel>
-      </div>
-      ;
+      </div>  
     </>
   );
 }

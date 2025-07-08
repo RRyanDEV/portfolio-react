@@ -17,7 +17,7 @@ export default function About() {
               <div className="text-md font-semibold text-white">
                 <Typewriter
                   options={{
-                    strings: ["Web FullStack Developer"],
+                    strings: [`${item.developer}`],
                     autoStart: true,
                     loop: true,
                   }}

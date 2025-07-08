@@ -8,7 +8,7 @@ import FlagToggle from "../FlagChange";
 export default function NavegationBar() {
   return (
     <>
-      <nav className="align-margin-padd h-12 flex justify-between items-center rounded-b-xl bg-gray-900/50 shadow-lg ring-1 ring-black/5">
+      <nav className="align-marg-padd h-12 flex justify-between items-center rounded-b-xl bg-gray-900/50 shadow-lg ring-1 ring-black/5">
         <div
           id="navContent"
           className="flex flex-row w-full items-center justify-between"
@@ -31,7 +31,7 @@ export default function NavegationBar() {
             </div>
             <div className="underline-effect flex items-center gap-2">
               <IoMdContact className="text-md" />
-              <a href="#">Contact</a>
+              <a href="#section_contact">Contact</a>
             </div>
           </div>
           <div className="flex items-center flex-row" id="optionNav">

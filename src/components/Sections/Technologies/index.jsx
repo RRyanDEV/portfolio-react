@@ -1,4 +1,4 @@
-import Technologies from "@/components/Sections/Technologies/technologies";
+import Technologies from "@/components/Sections/Technologies/cardTechnologies";
 
 export default function Skills() {
   return (
@@ -11,7 +11,7 @@ export default function Skills() {
       </div>
       <div
         id="Technologies"
-        className="max-sm:flex-col max-sm:gap-10 flex p-10 justify-between align-margin-padd"
+        className="max-sm:flex-col max-sm:gap-10 flex p-10 justify-between align-marg-padd"
       >
         <Technologies
           titleTech={"Frontend"}
