@@ -36,6 +36,11 @@ https://github.com/othneildrew/Best-README-Template
 
 </a>
 
+### v1.0.12.250710
+
+- Corrigido o formulário de contato.
+- Mudança na cor dos ícones na seção de contato.
+
 ### v1.0.11.250708
 
 - Adicionado um `Footer` para página.
