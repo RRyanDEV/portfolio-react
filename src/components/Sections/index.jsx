@@ -1,6 +1,7 @@
 import About from "./About";
 import CarouselCertifications from "./Certifications/Carousel";
 import Contact from "./Contact";
+import Projects from "./Project";
 import Skills from "./Technologies";
 
 export default function Sections() {
@@ -16,8 +17,8 @@ export default function Sections() {
         <div id="information_item">
           <CarouselCertifications />
         </div>
-        <div id="information-item" className="h-screen bg-green-800">
-          {/* <Projects /> */}
+        <div id="information-item">
+          <Projects />
         </div>
         <div id="information_item">
           <Contact />

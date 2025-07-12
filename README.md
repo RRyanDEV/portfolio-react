@@ -36,6 +36,14 @@ https://github.com/othneildrew/Best-README-Template
 
 </a>
 
+### v1.0.13.250711
+
+- Criado uma seção para os `Projetos`.
+- Feito um componente de `Card` para facilitar a manipulação de informações dos projetos.
+- Adicionado o direcionamento aos `Projetos` na `Barra de Navegação`.
+- Ajustes na componentização da `Homepage`.
+- Criado um arquivo `.json`, para gerenciar as informações dos projetos.
+
 ### v1.0.12.250710
 
 - Corrigido o formulário de contato.

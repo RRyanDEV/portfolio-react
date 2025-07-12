@@ -27,7 +27,7 @@ export default function NavegationBar() {
             </div>
             <div className="underline-effect flex items-center gap-2">
               <LuBlocks className="text-md" />
-              <a href="#">Projects</a>
+              <a href="#section_project">Projects</a>
             </div>
             <div className="underline-effect flex items-center gap-2">
               <IoMdContact className="text-md" />
