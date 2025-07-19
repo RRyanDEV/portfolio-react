@@ -23,10 +23,10 @@ export default function Projects() {
               key={project.id}
               name={project.name}
               description={project.description}
-              buttonDeploy={project.buttonDeploy}
+              linkGit={project.linkGit}
               buttonGit={project.buttonGit}
               linkDeploy={project.linkDeploy}
-              linkGit={project.linkGit}
+              buttonDeploy={project.buttonDeploy}
             />
           ))}
         </div>

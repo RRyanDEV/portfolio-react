@@ -1,14 +1,13 @@
-import { Button } from "flowbite-react";
-import { Card } from "flowbite-react";
+import { Button, Card } from "flowbite-react";
 import * as motion from "motion/react-client";
 
 export default function CardProjectComponent({
   name,
   description,
-  buttonDeploy,
+  linkGit,
   buttonGit,
   linkDeploy,
-  linkGit,
+  buttonDeploy,
 }) {
   return (
     <>
@@ -24,22 +23,27 @@ export default function CardProjectComponent({
             <p className="font-normal text-gray-400">{description}</p>
           </div>
           <div id="buttonsGroup" className="flex flex-row gap-5">
-            <a href={linkGit} target="_blank">
-              <Button
-                className="hover:bg-[#DFB5FF] text-black hover:animate-pulse bg-[#DFB5FF] hover:cursor-pointer"
-                pill
-              >
-                {buttonGit}
-              </Button>
-            </a>
-            <a href={linkDeploy} target="_blank">
-              <Button
-                className="hover:bg-[#DFB5FF] text-black hover:animate-pulse bg-[#DFB5FF] hover:cursor-pointer"
-                pill
-              >
-                {buttonDeploy}
-              </Button>
-            </a>
+            {linkGit && (
+              <a href={linkGit} target="_blank" rel="noopener noreferrer">
+                <Button
+                  className="hover:bg-[#DFB5FF] text-black hover:animate-pulse bg-[#DFB5FF] hover:cursor-pointer"
+                  pill
+                >
+                  {buttonGit || "Ver no GitHub"}
+                </Button>
+              </a>
+            )}
+
+            {linkDeploy && (
+              <a href={linkDeploy} target="_blank" rel="noopener noreferrer">
+                <Button
+                  className="hover:bg-[#DFB5FF] text-black hover:animate-pulse bg-[#DFB5FF] hover:cursor-pointer"
+                  pill
+                >
+                  {buttonDeploy || "Ver Deploy"}
+                </Button>
+              </a>
+            )}
           </div>
         </Card>
       </motion.div>

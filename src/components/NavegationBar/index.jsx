@@ -17,19 +17,19 @@ export default function NavegationBar() {
             className="text-white justify-center max-sm:text-xs flex max-sm:gap-2 gap-5 flex-row"
             id="navegationItems"
           >
-            <div className="underline-effect flex items-center gap-2">
+            <div className="underline-effect flex items-center max-sm:gap-1 gap-2">
               <FaInfoCircle className="text-md" />
               <a href="#section_about">About</a>
             </div>
-            <div className="underline-effect flex items-center gap-2">
+            <div className="underline-effect flex items-center max-sm:gap-1 gap-2">
               <PiCertificateFill className="text-md" />
               <a href="#section_cert">Certifications</a>
             </div>
-            <div className="underline-effect flex items-center gap-2">
+            <div className="underline-effect flex items-center max-sm:gap-1 gap-2">
               <LuBlocks className="text-md" />
               <a href="#section_project">Projects</a>
             </div>
-            <div className="underline-effect flex items-center gap-2">
+            <div className="underline-effect flex items-center max-sm:gap-1 gap-2">
               <IoMdContact className="text-md" />
               <a href="#section_contact">Contact</a>
             </div>

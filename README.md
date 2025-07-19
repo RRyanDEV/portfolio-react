@@ -36,6 +36,12 @@ https://github.com/othneildrew/Best-README-Template
 
 </a>
 
+### v1.0.14.250719
+
+- Ajustes nos cartões da seção de `Projetos`.
+- Ajustes no carrossel da seção de `Certificados`.
+- Ajustes na Barra de Nevegação.
+
 ### v1.0.13.250711
 
 - Criado uma seção para os `Projetos`.

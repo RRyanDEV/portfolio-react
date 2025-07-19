@@ -23,7 +23,7 @@ export default function CarouselCertifications() {
       </div>
       <div id="parent" className="flex flex-col items-center py-20 ">
         <Carousel orientation="vertical">
-          <CarouselContent className="max-sm:h-[405px] -mt-1 h-[220px]">
+          <CarouselContent className="max-sm:h-[385px] -mt-1 h-[220px]">
             {allCertifications.map((certitification) => (
               <CarouselItem key={certitification.id} className="pt-1 md:basis-1/2">
                 <div className="p-1">

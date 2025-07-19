@@ -4,9 +4,10 @@
       "id": "1",
       "name": "Quiz Go",
       "description": "Jogo criado utilizando Golang.",
+      "linkDeploy": "",
       "linkGit": "https://github.com/RRyanDEV/quiz-game-golang",
       "buttonGit": "Github",
-      "buttonDeploy": "Deploy"
+      "buttonDeploy": ""
     }
   ],
   "spotify-layout": [
@@ -14,7 +15,6 @@
       "id": "1",
       "name": "Clone Spotify",
       "description": "Aplicação web com uma interface parecida com o Spotify.",
-      "linkImg": "",
       "linkDeploy": "https://spotify-layout-nine.vercel.app/",
       "linkGit": "https://github.com/RRyanDEV/spotify_layout",
       "buttonGit": "Github",
@@ -26,9 +26,10 @@
       "id": "1",
       "name": "Mix Model Canvas",
       "description": "Aplicação web utilizada pelos alunos da pós-gradução do IFRJ - Eng. Paulo de Frontin.",
+      "linkDeploy": "",
       "linkGit": "https://github.com/RRyanDEV/mix_model_canvas",
       "buttonGit": "Github",
-      "buttonDeploy": "Deploy"
+      "buttonDeploy": ""
     }
   ],
 
@@ -37,7 +38,6 @@
       "id": "1",
       "name": "RaimeiShadow - Tema VsCode",
       "description": "Extensão dedicada às pessoas que estão cansadas dos temas de sempre do Visual Studio Code",
-      "linkImg": "",
       "linkDeploy": "https://marketplace.visualstudio.com/items?itemName=RRyanDEV.raimeishadow",
       "linkGit": "https://github.com/RRyanDEV/vscode-theme-raimeishadow",
       "buttonGit": "Github",
