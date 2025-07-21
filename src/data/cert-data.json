@@ -6,7 +6,7 @@
       "link": "https://app.rocketseat.com.br/certificates/71de2d63-6a15-4daf-b872-b3e89ca66ef6",
       "company": "Rocketseat",
       "time": "3 Horas",
-      "date": "2025-06-17",
+      "date": "17-06-2025",
       "skills": [
         "Desenvolvimento de Software",
         "Backend",
@@ -23,7 +23,7 @@
       "link": "https://app.rocketseat.com.br/certificates/3a89fbf8-9e25-4511-8315-34f0f663a583",
       "company": "Rocketseat",
       "time": "5 Horas",
-      "date": "2024-10-15",
+      "date": "15-10-2024",
       "skills": [
         "Desenvolvimento Mobile",
         "Backend",
@@ -31,6 +31,54 @@
         "Aprendizado Rápido"
       ],
       "languages": ["TypeScript", "React Native", "EXPO"]
+    }
+  ],
+  "imersao-frontend": [
+    {
+      "id": "1",
+      "title": "Imersão Front-End",
+      "link": "https://cursos.alura.com.br/immersion/certificate/7db1f2c3-4d98-486b-b42d-311c72ef2862?lang",
+      "company": "Alura",
+      "time": "5 Horas",
+      "date": "06-02-2024",
+      "skills": [
+        "Desenvolvimento Frontend",
+        "Aprendizado Rápido",
+        "Desenvolvimento Web"
+      ],
+      "languages": ["HTML5", "CSS3"]
+    }
+  ],
+  "introducao-html": [
+    {
+      "id": "1",
+      "title": "Introdução à linguagem HTML",
+      "link": "https://certificados.alfahelix.com.br/validar",
+      "company": "Udemy",
+      "time": "30 Min",
+      "date": "31-08-2021",
+      "skills": [
+        "Desenvolvimento Web",
+        "Desenvolvimento de Frontend",
+        "Aprendizado Rápido"
+      ],
+      "languages": ["HTML5"]
+    }
+  ],
+  "introducao-css": [
+    {
+      "id": "1",
+      "title": "Introdução à linguagem CSS",
+      "link": "https://certificados.alfahelix.com.br/validar",
+      "company": "Udemy",
+      "time": "2 Horas",
+      "date": "04-09-2021",
+      "skills": [
+        "Desenvolvimento Web",
+        "Desenvolvimento de Frontend",
+        "Aprendizado Rápido"
+      ],
+      "languages": ["HTML5", "CSS3"]
     }
   ]
 }

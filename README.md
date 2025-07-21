@@ -36,6 +36,12 @@ https://github.com/othneildrew/Best-README-Template
 
 </a>
 
+### v1.0.15.250721
+
+- Adicionado suporte as traduções: `(Português e Inglês)`.
+- Modificação no arquivo que contêm informações dos `Certificados`.
+- Mudança na biografia da seção: `Sobre`.
+
 ### v1.0.14.250719
 
 - Ajustes nos cartões da seção de `Projetos`.
