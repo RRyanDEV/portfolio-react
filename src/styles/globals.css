@@ -1,6 +1,15 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+@font-face {
+  font-family: Sig;
+  src: url("../assets/fonts/SignikaNegative-Regular.ttf");
+}
+
+@theme{
+  --font-sig: Sig, "sans-serif"
+}
+
 @custom-variant dark (&:is(.dark *));
 @plugin "flowbite-react/plugin/tailwindcss";
 @source "../../.flowbite-react/class-list.json";

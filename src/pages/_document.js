@@ -3,7 +3,7 @@ import { Html, Head, Main, NextScript } from "next/document";
 export default function Document() {
   return (
     <Html lang="pt-BR">
-      <title>RRyanDEV - Portfolio</title>
+      <title>RRyanDEV's portfolio</title>
       <Head />
       <body>
         <Main />

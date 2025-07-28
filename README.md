@@ -36,6 +36,17 @@ https://github.com/othneildrew/Best-README-Template
 
 </a>
 
+### v2.0.0.250727
+
+- **Versão final do meu portfólio.**
+- Removido suporte a tradução em `Português`.
+- Mudança na biografia da seção: `Sobre`.
+- Atualização na fonte utilizada no portfolio.
+- Ajustes na `Barra de Navegação`.
+- Atualização nas informações dos `Certificados`.
+- Atualização nas informações dos `Projetos`.
+- Adicionado uma foto na seção: `Sobre`.
+
 ### v1.0.15.250721
 
 - Adicionado suporte as traduções: `(Português e Inglês)`.

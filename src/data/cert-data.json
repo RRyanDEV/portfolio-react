@@ -2,16 +2,16 @@
   "minicurso-go": [
     {
       "id": "1",
-      "title": "Minicurso Introdução ao Go",
+      "title": "Introduction to Go Mini-Course",
       "link": "https://app.rocketseat.com.br/certificates/71de2d63-6a15-4daf-b872-b3e89ca66ef6",
       "company": "Rocketseat",
-      "time": "3 Horas",
+      "time": "3 Hours",
       "date": "17-06-2025",
       "skills": [
-        "Desenvolvimento de Software",
+        "Software Development",
         "Backend",
-        "Desenvolvimento Desktop",
-        "Aprendizado Rápido"
+        "Desktop Development",
+        "Fast Learning"
       ],
       "languages": ["Go"]
     }
@@ -19,16 +19,16 @@
   "minicurso-react-native": [
     {
       "id": "1",
-      "title": "Minicurso React Native",
+      "title": "React Native Mini-Course",
       "link": "https://app.rocketseat.com.br/certificates/3a89fbf8-9e25-4511-8315-34f0f663a583",
       "company": "Rocketseat",
-      "time": "5 Horas",
+      "time": "5 Hours",
       "date": "15-10-2024",
       "skills": [
-        "Desenvolvimento Mobile",
+        "Mobile Development",
         "Backend",
-        "Desenvolvimento de Frontend",
-        "Aprendizado Rápido"
+        "Frontend Development",
+        "Fast Learning"
       ],
       "languages": ["TypeScript", "React Native", "EXPO"]
     }
@@ -36,48 +36,36 @@
   "imersao-frontend": [
     {
       "id": "1",
-      "title": "Imersão Front-End",
+      "title": "Front-End Immersion",
       "link": "https://cursos.alura.com.br/immersion/certificate/7db1f2c3-4d98-486b-b42d-311c72ef2862?lang",
       "company": "Alura",
-      "time": "5 Horas",
+      "time": "5 Hours",
       "date": "06-02-2024",
-      "skills": [
-        "Desenvolvimento Frontend",
-        "Aprendizado Rápido",
-        "Desenvolvimento Web"
-      ],
+      "skills": ["Frontend Development", "Fast Learning", "Web Development"],
       "languages": ["HTML5", "CSS3"]
     }
   ],
   "introducao-html": [
     {
       "id": "1",
-      "title": "Introdução à linguagem HTML",
+      "title": "Introduction to HTML",
       "link": "https://certificados.alfahelix.com.br/validar",
       "company": "Udemy",
       "time": "30 Min",
       "date": "31-08-2021",
-      "skills": [
-        "Desenvolvimento Web",
-        "Desenvolvimento de Frontend",
-        "Aprendizado Rápido"
-      ],
+      "skills": ["Web Development", "Frontend Development", "Fast Learning"],
       "languages": ["HTML5"]
     }
   ],
   "introducao-css": [
     {
       "id": "1",
-      "title": "Introdução à linguagem CSS",
+      "title": "Introduction to CSS",
       "link": "https://certificados.alfahelix.com.br/validar",
       "company": "Udemy",
-      "time": "2 Horas",
+      "time": "2 Hours",
       "date": "04-09-2021",
-      "skills": [
-        "Desenvolvimento Web",
-        "Desenvolvimento de Frontend",
-        "Aprendizado Rápido"
-      ],
+      "skills": ["Web Development", "Frontend Development", "Fast Learning"],
       "languages": ["HTML5", "CSS3"]
     }
   ]

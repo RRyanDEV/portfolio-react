@@ -4,14 +4,13 @@ import Typewriter from "typewriter-effect";
 export default function Welcome() {
   return (
     <>
-      <div id="top" className="flex flex-col items-center max-sm:w-full w-3/4 text-center justify-center h-3/4 max-sm:gap-3 gap-7 text-white">
+      <div id="top" className="flex flex-col items-center font-sig w-3/4 text-center justify-center h-3/4 max-sm:gap-3 gap-7 text-white">
         <div className="text-6xl max-sm:text-2xl" id="title">
           <h1>
             <Typewriter
               options={{
                 strings: [
                   "Welcome to RRyanDEV's portfolio",
-                  "Bem vindo ao portfólio de RRyanDEV",
                 ],
                 autoStart: true,
                 loop: true,

@@ -53,14 +53,14 @@ export default function CertificationsCard({
             </div>
             <div
               id="tags"
-              className="flex max-sm:w-full gap-7 justify-center items-start flex-col p-5 max-sm:p-0 max-sm:mt-5 w-3/4"
+              className="flex max-sm:w-full  gap-7 justify-center items-start flex-col p-5 max-sm:p-0 max-sm:mt-5 w-3/4"
             >
               <div
                 id="skillsTags"
                 className="max-sm:flex-col flex max-sm:gap-2 gap-5"
               >
                 {displayedSkills.map((skill, index) => (
-                  <Badge key={index} color="gray">
+                  <Badge key={index} color="gray" className="font-medium">
                     {skill}
                   </Badge>
                 ))}
@@ -70,7 +70,7 @@ export default function CertificationsCard({
                 className="flex max-sm:w-full gap-5 items-center"
               >
                 {displayedLanguages.map((lang, index) => (
-                  <Badge color="gray" key={index}>
+                  <Badge key={index} color="gray" className="font-medium">
                     {lang}
                   </Badge>
                 ))}
