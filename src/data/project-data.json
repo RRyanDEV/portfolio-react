@@ -1,4 +1,15 @@
 {
+  "guessing-go-game": [
+    {
+      "id": "1",
+      "name": "Guessing Game",
+      "description": "Guessing game made in Go",
+      "linkDeploy": "",
+      "linkGit": "https://github.com/RRyanDEV/guessing-game-golang",
+      "buttonGit": "Github",
+      "buttonDeploy": ""
+    }
+  ],
   "quiz-go": [
     {
       "id": "1",
@@ -30,18 +41,6 @@
       "linkGit": "https://github.com/RRyanDEV/mix_model_canvas",
       "buttonGit": "Github",
       "buttonDeploy": ""
-    }
-  ],
-
-  "vscode-theme": [
-    {
-      "id": "1",
-      "name": "RaimeiShadow - VsCode Theme",
-      "description": "An extension for people tired of the usual Visual Studio Code themes.s",
-      "linkDeploy": "https://marketplace.visualstudio.com/items?itemName=RRyanDEV.raimeishadow",
-      "linkGit": "https://github.com/RRyanDEV/vscode-theme-raimeishadow",
-      "buttonGit": "Github",
-      "buttonDeploy": "Deploy"
     }
   ]
 }

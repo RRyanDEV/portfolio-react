@@ -36,6 +36,10 @@ https://github.com/othneildrew/Best-README-Template
 
 </a>
 
+### v2.0.1.251023
+
+- Atualização na seção dos `Projetos`.
+
 ### v2.0.0.250727
 
 - **Versão final do meu portfólio.**
